@@ -1,0 +1,17 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: components/icons/ui
+ * -----------------------------------------------------------------------------
+ */
+
+%icon,
+.icon {
+  color: $color-primary;
+  display: block;
+  text-decoration: none !important;
+}
+
+.icon-dark {
+  color: $color-primary;
+}
+

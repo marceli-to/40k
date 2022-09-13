@@ -1,0 +1,15 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: component/headings/h2
+ * -----------------------------------------------------------------------------
+ */
+
+h2 {
+  @include font-regular();
+  margin-bottom: $space-8x;
+  text-transform: uppercase;
+
+  em {
+    @include font-regular();
+  }
+}

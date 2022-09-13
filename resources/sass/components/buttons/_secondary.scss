@@ -1,0 +1,17 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: components/buttons/secondary
+ * -----------------------------------------------------------------------------
+ */
+
+%btn-secondary,
+.btn-secondary {
+  @extend %btn;
+  background-color: #c8c8c8;
+  color: $color-white;
+  @include font-regular();
+  
+  &:hover {
+    background-color: $color-primary;
+  }
+}

@@ -1,0 +1,37 @@
+.app {
+  h2, 
+  label {
+    @extend %mb-2x;
+    @include font-mono();
+    text-align: center;
+    text-decoration: underline;
+    text-transform: none;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+    color: $color-tertiary;
+  }
+
+  input[type=text] {
+    text-align: center;
+  }
+}
+
+.counter {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+  > div {
+    @extend %mb-8x;
+    @include font-bold();
+    line-height: 1 !important;
+  }
+
+  &__achieved {
+    font-size: 96px;
+  }
+
+  &__goal {
+    font-size: 36px;
+  }
+}

@@ -1,0 +1,24 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/base
+ * -----------------------------------------------------------------------------
+ */
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	background-color: $color-white;
+  background-color: #0093E9;
+  background-image: linear-gradient(90deg, #0093E9 0%, #80D0C7 100%);
+	color: $color-tertiary;
+	@include font-smoothing();
+	@include font-regular();
+	@include font-size($fs-sm);
+	position: relative;
+}
+
+
+// Scrollbars
+@include scrollbar(7px, #bbb);

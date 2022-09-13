@@ -1,0 +1,17 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: components/utilities
+ * -----------------------------------------------------------------------------
+ */
+
+.xs\:hide {
+  @include bp-xs() {
+    display: none !important;
+  }
+}
+
+.sm\:hide {
+  @include bp-sm() {
+    display: none !important;
+  }
+}
